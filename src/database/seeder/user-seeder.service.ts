@@ -12,8 +12,8 @@ export class UserSeeder {
 
   async seed() {
     const users = [
-      { name: 'John Doe', email: 'john@example.com' },
-      { name: 'Jane Doe', email: 'jane@example.com' },
+      { name: 'user1', email: 'user1@gmail.com' },
+      { name: 'user2', email: 'user2@gmail.com' },
     ];
 
     for (const user of users) {

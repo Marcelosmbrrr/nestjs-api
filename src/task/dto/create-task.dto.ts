@@ -9,6 +9,11 @@ export class CreateTaskDto {
   @IsNotEmpty()
   description: string;
 
-  @IsEnum({ open: 'open', running: 'running', finished: 'finished', canceled: 'canceled' })
+  @IsEnum({
+    open: 'open',
+    running: 'running',
+    finished: 'finished',
+    canceled: 'canceled',
+  })
   situation: string;
 }
